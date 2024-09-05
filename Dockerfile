@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 3000
 
 
-RUN ["node", "index.js"]
+CMD ["node", "index.js"]
